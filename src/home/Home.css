@@ -1,0 +1,102 @@
+.home {
+  width: 100%;
+  height: 100%;
+}
+.homeTop {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  top: 0;
+  align-items: center;
+}
+.homeTopLeft,
+.homeTopRight {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+}
+.homeLogoImg {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.homeTopCenter {
+  flex: 6;
+}
+.homeNavigationBar {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.homeNavigationBarItem {
+  margin-left: 20px;
+  color: rgb(121, 99, 43);
+  font-size: 17px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.navigationBar {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigationBarItem {
+  margin-right: 15px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  border: 2px solid rgb(244, 184, 73);
+  border-radius: 10px;
+  border-top-right-radius: 1px;
+  border-spacing: 5px;
+}
+.homeContainer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 251, 246);
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 300px;
+}
+.homeContainerTitle {
+  padding-left: 20px;
+  float: left;
+}
+.homeTitle {
+  font-family: montserrat, serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1px;
+  align-items: center;
+}
+.SpanHomeTitle {
+  color: rgb(67, 154, 67);
+}
+.homeParagraph {
+  background-color: rgb(236, 178, 69);
+  border: 2px solid rgb(243, 190, 90);
+  border-bottom-right-radius: 10px;
+}
+
+.homeContainerImg {
+  float: right;
+  padding-bottom: 320px;
+  padding-right: 300px;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+.homeImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 80%;
+}
