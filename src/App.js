@@ -2,6 +2,7 @@ import About from "./About";
 import "./App.css";
 import Home from "./home/Home";
 import Services from "./services/Services";
+import Team from "./team/Team";
 import TopBar from "./topbar/TopBar";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <Team />
     </div>
   );
 }
