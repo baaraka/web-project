@@ -1,10 +1,11 @@
 import About from "./About";
 import "./App.css";
 import Gallery from "./gallery/Gallery";
+import Help from "./help/Help";
 import Home from "./home/Home";
 import Services from "./services/Services";
 import Team from "./team/Team";
-import TopBar from "./topbar/TopBar";
+import TopBar from "./topBar/TopBar";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services />
       <Team />
       <Gallery />
+      <Help />
     </div>
   );
 }
