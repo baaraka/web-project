@@ -13,7 +13,7 @@ export default function Says() {
               <img
                 src="https://t4.ftcdn.net/jpg/02/65/60/81/360_F_265608151_dW8v74JWjL0ch4iJ5l2oyPm4kv2WBrqe.jpg"
                 alt=""
-                className="saysBoxItemImg sayImg1"
+                className="saysBoxItemImg"
               />
             </div>
             <div className="sayBoxItem1">
@@ -32,7 +32,7 @@ export default function Says() {
               <img
                 src="https://t4.ftcdn.net/jpg/02/65/60/81/360_F_265608151_dW8v74JWjL0ch4iJ5l2oyPm4kv2WBrqe.jpg"
                 alt=""
-                className="saysBoxItemImg sayImg2"
+                className="saysBoxItemImg"
               />
             </div>
             <div className="sayBoxItem2">
@@ -54,7 +54,7 @@ export default function Says() {
                 className="saysBoxItemImg"
               />
             </div>
-            <div className="sayBoxItem2">
+            <div className="sayBoxItem3">
               <p className="saysParagraph">
                 I am a full-stack web developer with strong knowledge of
                 MongoDB, node.js, Javascript and front end technologies such
