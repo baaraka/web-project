@@ -3,6 +3,7 @@ import "./App.css";
 import Gallery from "./gallery/Gallery";
 import Help from "./help/Help";
 import Home from "./home/Home";
+import Questions from "./questions/Questions";
 import Says from "./says/Says";
 import Services from "./services/Services";
 import Team from "./team/Team";
@@ -19,6 +20,7 @@ function App() {
       <Gallery />
       <Help />
       <Says />
+      <Questions />
     </div>
   );
 }
