@@ -8,8 +8,8 @@ export default function Questions() {
           <h1 className="questionsDivHeading">Frequently Asked Questions</h1>
         </div>
         <div className="questionsList">
-          <div className="questionsListItem">
-            <p className="questionsParagraph">
+          <div className="questionsListItem1">
+            <p className="questionParagraph">
               I am a full-stack web developer with strong knowledge of MongoDB,
               node.js, Javascript and front end technologies such react, jquery,
               Ejs and counting.
@@ -20,21 +20,21 @@ export default function Questions() {
               Ejs and counting.
             </p>
           </div>
-          <div className="questionsListItem">
+          <div className="questionsListItem2">
             <p className="questionsParagraph">
               I am a full-stack web developer with strong knowledge of MongoDB,
               node.js, Javascript and front end technologies such react, jquery,
               Ejs and counting.
             </p>
           </div>
-          <div className="questionsListItem">
+          <div className="questionsListItem3">
             <p className="questionsParagraph">
               I am a full-stack web developer with strong knowledge of MongoDB,
               node.js, Javascript and front end technologies such react, jquery,
               Ejs and counting.
             </p>
           </div>
-          <div className="questionsListItem">
+          <div className="questionsListItem4">
             <p className="questionsParagraph">
               I am a full-stack web developer with strong knowledge of MongoDB,
               node.js, Javascript and front end technologies such react, jquery,
