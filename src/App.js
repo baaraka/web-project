@@ -1,5 +1,6 @@
 import About from "./About";
 import "./App.css";
+import Footer from "./footer/Footer";
 import Gallery from "./gallery/Gallery";
 import Help from "./help/Help";
 import Home from "./home/Home";
@@ -21,6 +22,7 @@ function App() {
       <Help />
       <Says />
       <Questions />
+      <Footer />
     </div>
   );
 }
