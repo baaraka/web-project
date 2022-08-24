@@ -13,11 +13,11 @@ export default function Footer() {
                 className="footerImg"
               />{" "}
               <br />
-              <span className="footerSpan">
+              <p className="footerSpan">
                 I am a full-stack web developer with strong knowledge of
                 MongoDB, node.js, Javascript and front end technologies such
                 react, jquery, Ejs and counting.
-              </span>
+              </p>
             </div>
             <div className="footerTopCenter">
               <ul className="footerNavigationBar">
@@ -28,8 +28,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="footerRight">
-              <span className="footerSpanRight">Contact</span>
-              <br />
+              <p className="footerSpanRight">Contact</p>
               <i className="footIcons fa-solid fa-envelope"></i>
               <span className="footerEmail">contact@9barack.com</span>
               <br />
