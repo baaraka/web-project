@@ -1,14 +1,14 @@
 .says {
   width: 100%;
   height: 100%;
-  background-color: whitesmoke;
+  background-color: rgb(246, 243, 240);
 }
 .saysItem {
   width: 97%;
   height: 380px;
 }
 .saysHeading {
-  width: 100%;
+  width: 80%;
   height: 40px;
   align-items: center;
   justify-content: center;
