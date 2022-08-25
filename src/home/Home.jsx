@@ -5,16 +5,16 @@ export default function Home() {
     <div className="home">
       <div className="homeContainer">
         <div className="homeContainerTitle">
-          <h1 className="homeTitle">
-            <span className="SpanHomeTitle">Caregreek</span> We Are
-          </h1>
-          <br />
-          <h1 className="homeTitle">A Certified Cleaning</h1>
-          <br />
-          <h1 className="homeTitle">Company</h1>
-          <br />
-          <p className="homeParagraph">SHEDULE SERVICES</p>
-          <br />
+          <div className="homeContainerList">
+            <h1 className="homeTitle">
+              <span className="SpanHomeTitle">Caregreek</span> We Are
+            </h1>
+            <h1 className="homeTitle">A Certified Cleaning</h1>
+            <h1 className="homeTitle">Company</h1>
+          </div>
+          <div className="homeParagraphItem">
+            <p className="homeParagraph">SHEDULE SERVICES</p>
+          </div>
         </div>
 
         <div className="homeContainerImgSection">
