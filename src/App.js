@@ -1,4 +1,4 @@
-import About from "./About";
+import About from "./about/About";
 import "./App.css";
 import Footer from "./footer/Footer";
 import Gallery from "./gallery/Gallery";
