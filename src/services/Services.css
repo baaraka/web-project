@@ -1,14 +1,11 @@
 .services {
   width: 100%;
   height: 100%;
-  background-color: white;
-  top: 0;
-  right: 0;
-  left: 0;
+  background-color: rgb(246, 243, 240);
 }
 .serviceContainer {
   height: 100%;
-  width: 92%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +20,12 @@
   overflow: hidden;
   padding-top: 20px;
 }
-.heading {
+.headingService {
   padding-top: 10px;
   font-family: montserrat serif;
   font-size: 20px;
   font-weight: 800;
+  text-align: center;
 }
 .serviceContainers {
   width: 92%;
@@ -37,7 +35,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: white;
+  background-color: rgb(246, 243, 240);
   flex-wrap: wrap;
 }
 .containerService {
@@ -47,7 +45,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  background-color: whitesmoke;
+  background-color: rgb(225, 222, 222);
   margin: 20px;
   border-radius: 10px;
 }
@@ -64,8 +62,6 @@
 .icon {
   color: rgb(213, 196, 154);
   bottom: 0;
-}
-.containerHeading {
 }
 .headings {
   font-size: 20px;
