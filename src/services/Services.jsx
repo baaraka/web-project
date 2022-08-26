@@ -5,7 +5,7 @@ export default function Services() {
     <div className="services">
       <div className="serviceContainer">
         <div className="serviceContainerHeading">
-          <h1 className="heading">Our Services</h1>
+          <h1 className="headingService">Our Services</h1>
         </div>
         <div className="serviceContainers">
           <div className="containerService">
