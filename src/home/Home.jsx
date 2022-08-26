@@ -19,7 +19,7 @@ export default function Home() {
         <div className="homeContainerCenter">
           <div className="homeContainerImgItem">
             <img
-              src="https://thumbs.dreamstime.com/b/portrait-handsome-young-african-american-black-man-combing-his-hair-bathroom-isolated-over-grey-background-185903660.jpg"
+              src="https://thumbs.dreamstime.com/b/portrait-handsome-bearded-man-grey-background-over-studio-empty-space-middle-aged-posing-male-magazine-blog-youth-205328712.jpg"
               alt=""
               className="homeContainerImgCenter"
             />
