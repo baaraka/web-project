@@ -4,7 +4,7 @@ export default function Gallery() {
   return (
     <div className="gallery">
       <div className="galleryHeading">
-        <h1 className="heading">Our Gallery</h1>
+        <h1 className="headingGalley">Our Gallery</h1>
       </div>
       <div className="galleryDiv">
         <div className="galleryImg">
