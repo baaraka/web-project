@@ -17,7 +17,7 @@ export default function Says() {
               />
             </div>
             <div className="sayBoxItem1">
-              <p className="saysParagraph">
+              <p className="saysParagraph1">
                 I am a full-stack web developer with strong knowledge of
                 MongoDB, node.js, Javascript and front end technologies such
                 react, jquery, Ejs and counting.Graduated University with degree
@@ -36,7 +36,7 @@ export default function Says() {
               />
             </div>
             <div className="sayBoxItem2">
-              <p className="saysParagraph">
+              <p className="saysParagraph2">
                 I am a full-stack web developer with strong knowledge of
                 MongoDB, node.js, Javascript and front end technologies such
                 react, jquery, Ejs and counting.Graduated University with degree
@@ -55,7 +55,7 @@ export default function Says() {
               />
             </div>
             <div className="sayBoxItem3">
-              <p className="saysParagraph">
+              <p className="saysParagraph3">
                 I am a full-stack web developer with strong knowledge of
                 MongoDB, node.js, Javascript and front end technologies such
                 react, jquery, Ejs and counting.Graduated University with degree
