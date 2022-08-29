@@ -1,12 +1,12 @@
 .team {
+  top: 0;
   width: 100%;
-  height: 100%;
+  height: 500px;
   background-color: rgb(246, 243, 240);
 }
 .teamDiv {
-  width: 92%;
+  width: 100%;
   height: 500px;
-  margin: 10px;
 }
 .teamHeading {
   float: left;
@@ -15,7 +15,8 @@
   justify-content: center;
   align-items: center;
   margin-left: 80px;
-  margin-top: 95px;
+  margin-top: 90px;
+  padding-top: 90px;
 }
 .heading {
   font-size: 20px;
@@ -39,9 +40,9 @@
   justify-content: center;
 }
 .teamImgItem {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 20px;
   margin-left: 30px;
-  margin-top: 5px;
+  margin-top: 60px;
 }
