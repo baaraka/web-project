@@ -21,6 +21,7 @@
   flex: 3;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .homeLogoImg {
   width: 70px;
@@ -34,6 +35,9 @@
 }
 .homeTopCenter {
   flex: 6;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .homeNavigationBar {
   display: flex;
