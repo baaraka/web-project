@@ -1,4 +1,5 @@
 .gallery {
+  top: 0;
   width: 100%;
   height: 100%;
   background-color: rgb(246, 243, 240);
@@ -12,7 +13,7 @@
   font-family: montserrat serif;
   font-weight: 800;
   padding-top: 20px;
-  margin-top: 20px;
+  margin: 0;
   text-align: center;
 }
 .galleryDiv {
