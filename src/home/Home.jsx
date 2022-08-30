@@ -16,34 +16,50 @@ export default function Home() {
             <p className="homeParagraph">SHEDULE SERVICES</p>
           </div>
         </div>
-        <div className="homeContainerCenter">
-          <div className="homeContainerImgItem">
-            <img
-              src="https://thumbs.dreamstime.com/b/portrait-handsome-bearded-man-grey-background-over-studio-empty-space-middle-aged-posing-male-magazine-blog-youth-205328712.jpg"
-              alt=""
-              className="homeContainerImgCenter"
-            />
-          </div>
-          <div className="homeContainerCenterParagraph">
-            <span className="centerParagraph">Barack Ganai</span>
-            <p className="homeCenterParagraph">
-              I am a full-stack web developer
-            </p>
-          </div>
-        </div>
+
         <div className="homeContainerImgSection">
-          <div className="homeContainerDash">
-            <ul className="homeDash">
+          <div className="circle"></div>
+
+          <div className="homeContainerDash2">
+            <ul className="homeDash2">
               <li>............</li>
               <li>............</li>
             </ul>
           </div>
+          <div className="triangle"></div>
           <div className="homeContainerImg">
             <img
-              src="https://media.istockphoto.com/photos/young-trendy-man-in-glasses-and-sweater-feeling-happy-about-in-text-picture-id1237258345?k=20&m=1237258345&s=612x612&w=0&h=9t9BCsdPN18XkfkBiq6tDDnxi-CR7Kb3NfYRMSx2yMw="
+              src="https://thumbs.dreamstime.com/b/bearded-man-hold-duster-microfiber-cleaning-clean-house-housekeeping-business-call-service-male-maid-household-happy-hipster-169325189.jpg"
               alt=""
               className="homeImg"
             />
+          </div>
+          <div className="homeContainerCenter">
+            <div className="homeContainerImgItem">
+              <img
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-bearded-man-grey-background-over-studio-empty-space-middle-aged-posing-male-magazine-blog-youth-205328712.jpg"
+                alt=""
+                className="homeContainerImgCenter"
+              />
+            </div>
+            <div className="homeContainerCenterParagraph">
+              <span className="centerParagraph">Barack Ganai</span>
+              <p className="homeCenterParagraph">
+                I am a full-stack web developer
+              </p>
+            </div>
+          </div>
+          <div className="homeContainerDash1">
+            <ul className="homeDash1">
+              <li>.........</li>
+              <li>.........</li>
+              <li>.........</li>
+            </ul>
+          </div>
+          <div className="homeContainerDash3">
+            <ul className="homeDash3">
+              <li>...</li>
+            </ul>
           </div>
         </div>
       </div>
