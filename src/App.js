@@ -9,6 +9,7 @@ import Says from "./says/Says";
 import Services from "./services/Services";
 import Team from "./team/Team";
 import TopBar from "./topBar/TopBar";
+import Why from "./why/Why";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TopBar />
       <Home />
       <About />
+      <Why />
       <Services />
       <Team />
       <Gallery />
