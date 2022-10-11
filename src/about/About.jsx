@@ -1,3 +1,4 @@
+import ReadMoreLessAbout from "../readMoreLessAbout/ReadMoreLessAbout";
 import "./About.css";
 
 export default function About() {
@@ -29,14 +30,24 @@ export default function About() {
         </div>
         <div className="aboutUsItems">
           <h1 className="aboutUsItem">About Us</h1>
-          <p className="aboutUsItemParagraph">
-            Professional iOS Developer,Fluent in Swift and Objective C
-            Programming languages. I am also a fullstack web developer with
-            strong knowledge of MongoDB, node.js, Javascript and front end
-            technologies such react, jquery, Ejs and and counting. Graduated
-            University with degree in Electrical & Electronics Engineering.
-            Strong mathematics and programming background.
-          </p>
+          <ReadMoreLessAbout limit={200}>
+            <p className="aboutUsItemParagraph">
+              Caregreek International Limited Was Established In 2018 And Has
+              Over The Years Evolved To Become The Largest And Most Specialized
+              Cleaning Company In Abuja. It is One Of Wholly Citizen Owned
+              Commercial Cleaning Company In Nigeria. The Company Registration
+              Number Is RC1509998. It Has Extensive Experience In Cleaning All
+              Types Of Building Such AS Schools, Office, Industrial
+              Building(Premises), Hotels, Shopping Center, Government Offices,
+              Commercial Premises And Hospitals, Bank And Others. <hr /> The
+              Company's Success Lies In Its Ability To Train And Manage Hundred
+              Of Stuffs To Archive The Stringent Standard Demanded By Customers
+              We Serve In Nigeria. <hr /> Our Services Include Provision Of
+              Janitorial Services, Hygiene Supplies, Pest Control, Once
+              Off-Specialized Cleaning Office Plant Supplies And Landscaping And
+              Garden Services And Chemical Supplies.
+            </p>
+          </ReadMoreLessAbout>
         </div>
       </div>
     </div>
