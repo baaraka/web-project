@@ -25,6 +25,11 @@ export default function Says() {
                 programming background.
               </p>
               <span className="saysSpan">Barack Ganai</span>
+              <br />
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
             </div>
           </div>
           <div className="sayBox2">
@@ -44,6 +49,11 @@ export default function Says() {
                 programming background.
               </p>
               <span className="saysSpan">Barack Ganai</span>
+              <br />
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
             </div>
           </div>
           <div className="sayBox3">
@@ -63,6 +73,11 @@ export default function Says() {
                 programming background.
               </p>
               <span className="saysSpan">Barack Ganai</span>
+              <br />
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
+              <span className="starL fa fa-star checked"></span>
             </div>
           </div>
         </div>
