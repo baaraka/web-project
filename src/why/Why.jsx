@@ -11,8 +11,8 @@ export default function Why() {
               <i className="aboutUsIcon fa-solid fa-check"></i>
             </div>
             <span className="aboutUHeadingParagraph">
-              Professional iOS Developer,Fluent in Swift and Objective C
-              Programming languages. I am also a fullstack web developer
+              A Superior Clean Through Our Trained Stuff And On-Site Supervision
+              To Ensure Accountability Each And Every Time;
             </span>
           </div>
           <div className="aboutIconDiv">
@@ -20,8 +20,8 @@ export default function Why() {
               <i className="aboutUsIcon fa-solid fa-check"></i>
             </div>
             <span className="aboutUHeadingParagraph">
-              Professional iOS Developer,Fluent in Swift and Objective C
-              Programming languages. I am also a fullstack web developer
+              A Local Operations Team On-Call 24 Hours A Day, Available To Work
+              At A Moment's Notice; And
             </span>
           </div>
           <div className="aboutIconDiv">
@@ -29,8 +29,8 @@ export default function Why() {
               <i className="aboutUsIcon fa-solid fa-check"></i>
             </div>
             <span className="aboutUHeadingParagraph">
-              Professional iOS Developer,Fluent in Swift and Objective C
-              Programming languages. I am also a fullstack web developer
+              A Safe "Green" Clean With The Use Of Environmentally Friendly
+              Products, Vacuums And Microfiber Dusting Cloth.
             </span>
           </div>
         </div>
