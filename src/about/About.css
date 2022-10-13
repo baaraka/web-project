@@ -45,21 +45,21 @@
   justify-content: center;
 }
 .img1 {
-  width: 100px;
+  width: 120px;
   height: 250px;
   margin: 5px;
   padding: 5px;
   border-radius: 25px;
 }
 .img2 {
-  width: 100px;
+  width: 120px;
   height: 250px;
   margin: 5px;
   padding: 5px;
   border-radius: 25px;
 }
 .img3 {
-  width: 100px;
+  width: 120px;
   height: 250px;
   margin: 5px;
   padding: 5px;
@@ -70,4 +70,18 @@
 }
 hr {
   border: none;
+}
+.aboutBtn {
+  margin-left: 60px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  border-spacing: 5px;
+  padding: 7px;
+  cursor: pointer;
+  font-family: montserrat, sans-serif;
+  border-radius: 10px;
+  border-top-right-radius: 1px;
+  background-color: rgb(239, 206, 121);
+  border: 2px solid rgb(239, 206, 121);
 }
