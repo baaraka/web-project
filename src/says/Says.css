@@ -90,7 +90,7 @@
   padding: 30px;
   border-radius: 10px;
   position: relative;
-  background-color: rgb(183, 181, 149);
+  background-color: rgb(202, 200, 183);
 }
 .sayBoxItem2 {
   width: 350px;
@@ -98,15 +98,19 @@
   padding: 30px;
   position: relative;
   border-radius: 10px;
-  background-color: rgb(158, 131, 98);
+  background-color: rgb(210, 201, 137);
 }
 .sayBoxItem3 {
   width: 350px;
   height: 280px;
   padding: 30px;
   border-radius: 10px;
-  background-color: rgb(67, 67, 45);
+  background-color: rgb(124, 114, 35);
 }
 .saysSpan {
   color: black;
+}
+.starL {
+  color: gold;
+  padding: 2px;
 }
