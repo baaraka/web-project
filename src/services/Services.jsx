@@ -99,6 +99,7 @@ export default function Services() {
             </div>
           </div>
         </div>
+        <button className="serviceBtn">View More</button>
       </div>
     </div>
   );
