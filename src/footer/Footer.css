@@ -74,18 +74,24 @@
 }
 .footerEmail {
   color: rgb(121, 99, 43);
+  padding-left: 8px;
 }
 .footIcons {
-  padding: 10px;
+  padding: 4px;
   cursor: pointer;
-  border: 1px solid;
+  border: 1px solid rgb(193, 190, 177);
   border-radius: 50%;
   color: rgb(121, 99, 43);
 }
 .footIcon {
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
   cursor: pointer;
-  border: 1px solid;
+  border: 1px solid rgb(193, 190, 177);
   border-radius: 50%;
   color: rgb(121, 99, 43);
+}
+.footIconFooter {
+  padding-right: 10px;
+  padding-top: 10px;
 }
