@@ -1,11 +1,11 @@
 .help {
   width: 100%;
-  height: 550px;
+  height: 500px;
   background-color: hsl(20, 12%, 10%);
 }
 .helpDivItem {
   width: 100%;
-  height: 550px;
+  height: 500px;
 }
 .helpDiv {
   float: left;
@@ -13,10 +13,9 @@
   height: 280px;
   display: flex;
   color: white;
-  margin-top: 130px;
-  padding-top: 130px;
-  padding-left: 40px;
-  margin-left: 40px;
+  position: relative;
+  top: 190px;
+  left: 125px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -27,6 +26,10 @@
 }
 .helpHead {
   line-height: 10px;
+  padding-bottom: 20px;
+}
+.headingHelp {
+  padding-top: 20px;
 }
 
 .headingP {
@@ -39,14 +42,18 @@
 }
 .paragraphs {
   font-family: montserrat serif;
-  padding-left: 35px;
-  margin-left: 35px;
+  width: 550px;
   color: white;
+  padding-top: 15px;
+  position: relative;
+  line-height: 22px;
 }
 
 .helpDsh {
   width: 200px;
-  height: 90px;
+  height: 110px;
+  position: relative;
+  top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,10 +73,10 @@
   width: 30%;
   background-color: white;
   height: 400px;
-  margin-right: 50px;
-  padding-right: 50px;
-  margin-top: 30px;
-  padding-top: 30px;
+  position: relative;
+  top: 50px;
+  right: 130px;
+  border-radius: 10px;
 }
 .helpFormHeading {
   height: 20px;
@@ -82,6 +89,7 @@
   padding-top: 10px;
   font-size: 20px;
   font-family: montserrat serif;
+  color: rgb(58, 50, 50);
 }
 .helpFormItem {
   align-items: center;
