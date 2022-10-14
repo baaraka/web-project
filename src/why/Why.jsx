@@ -38,7 +38,7 @@ export default function Why() {
           <div className="aboutUsVideo">
             <iframe
               width="450"
-              height="250"
+              height="300"
               src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"
             ></iframe>
           </div>
