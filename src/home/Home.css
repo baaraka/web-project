@@ -1,13 +1,12 @@
 .home {
   width: 100%;
-  height: 465px;
+  height: 420px;
   background-color: rgb(240, 251, 246);
 }
 .homeContainer {
-  margin: 0;
   display: flex;
   width: 100%;
-  height: 465px;
+  height: 420px;
   background-color: rgb(240, 251, 246);
   align-items: flex-start;
   justify-content: center;
@@ -23,6 +22,7 @@
   left: 120px;
   width: 550px;
   height: 210px;
+  top: 25px;
   position: relative;
 }
 .homeTitle {
@@ -32,13 +32,15 @@
   line-height: 20px;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding-top: 40px;
+  padding-right: 10px;
 }
 .SpanHomeTitle {
   color: rgb(67, 154, 67);
 }
 .homeParagraphItem {
   left: 120px;
+  top: 30px;
   width: 170px;
   height: 50px;
   position: relative;
@@ -48,10 +50,12 @@
 }
 .homeParagraph {
   font-size: 15px;
+  font-weight: 550;
   align-items: center;
   justify-content: center;
   border-spacing: 5px;
   padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   font-family: montserrat, sans-serif;
   border-radius: 10px;
@@ -68,8 +72,8 @@
   flex-direction: column;
 }
 .circle {
-  top: 80px;
-  left: 240px;
+  top: 85px;
+  left: 215px;
   height: 30px;
   width: 30px;
   position: relative;
@@ -77,8 +81,8 @@
   border: 4px solid gray;
 }
 .triangle {
-  left: 560px;
-  bottom: 45px;
+  left: 570px;
+  bottom: 20px;
   width: 0;
   height: 0;
   position: relative;
@@ -87,22 +91,22 @@
   border-bottom: 15px solid transparent;
 }
 .homeContainerDash1 {
-  bottom: 450px;
-  left: 180px;
+  bottom: 390px;
+  left: 215px;
   width: 150px;
   height: 70px;
   position: relative;
 }
 .homeContainerDash2 {
-  bottom: 62px;
-  left: 300px;
+  bottom: 50px;
+  left: 330px;
   width: 200px;
   height: 50px;
   position: relative;
 }
 .homeContainerDash3 {
-  bottom: 400px;
-  left: 280px;
+  bottom: 290px;
+  left: 322px;
   width: 200px;
   height: 30px;
   position: relative;
@@ -116,7 +120,7 @@
 .homeDash2 {
   list-style: none;
   font-size: 50px;
-  line-height: 20px;
+  line-height: 30px;
   color: rgb(67, 154, 67);
 }
 .homeDash3 {
@@ -126,13 +130,15 @@
   color: white;
 }
 .homeContainerCenter {
-  bottom: 230px;
-  width: 320px;
-  height: 80px;
+  bottom: 225px;
+  width: 360px;
+  height: 100px;
   display: flex;
   padding: 10px;
   position: relative;
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
   background-color: white;
 }
 .homeContainerImgItem {
@@ -151,19 +157,39 @@
   height: 90px;
 }
 .homeContainerImg {
-  bottom: 100px;
+  bottom: 72px;
   left: 195px;
-  width: 450px;
+  width: 410px;
   height: 400px;
   position: relative;
   align-items: center;
   justify-content: center;
 }
 .homeImg {
-  width: 420px;
-  height: 420px;
+  width: 400px;
+  height: 400px;
   bottom: 5px;
-  left: 5px;
+  left: 17px;
   position: relative;
   border-radius: 50%;
+}
+.centerParagraph {
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+.homeCenterParagraph {
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 15px;
+  position: relative;
+  bottom: 15px;
+  line-height: 22px;
+}
+.star {
+  color: gold;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7px;
 }
