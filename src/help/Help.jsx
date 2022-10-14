@@ -7,8 +7,8 @@ export default function Help() {
         <div className="helpDiv">
           <div className="helpHeading">
             <div className="helpHead">
-              <h1 className="heading">Let's Help You With Your</h1>
-              <h1 className="heading">Cleaning</h1>
+              <h1 className="headingHelp">Let's Help You With Your</h1>
+              <h1 className="headingHelp">Cleaning</h1>
             </div>
             <p className="paragraphs">
               I am a full-stack web developer with strong knowledge of MongoDB,
