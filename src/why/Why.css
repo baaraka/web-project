@@ -23,6 +23,8 @@
   font-size: 20px;
   align-items: center;
   justify-content: center;
+  padding-top: 80px;
+  color: rgb(58, 50, 50);
 }
 .aboutUHeadingParagraph {
   font-family: montserrat, sans-serif;
@@ -30,6 +32,7 @@
   justify-content: center;
   padding: 10px;
   color: rgb(121, 99, 43);
+  line-height: 22px;
 }
 .aboutUsIcon {
   padding-top: 10px;
@@ -37,13 +40,17 @@
 }
 .aboutUsWhyVideo {
   width: 500px;
+  height: 250px;
+  position: relative;
+  left: 85px;
   align-items: center;
   justify-content: center;
-  margin-left: 70px;
 }
 .aboutUsVideo {
   align-items: center;
   justify-content: center;
+  height: 250px;
+  width: 500px;
 }
 .aboutIconDiv {
   display: flex;
