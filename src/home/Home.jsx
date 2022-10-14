@@ -43,9 +43,13 @@ export default function Home() {
               />
             </div>
             <div className="homeContainerCenterParagraph">
-              <span className="centerParagraph">Barack Ganai</span>
+              <span className="centerParagraph">Barack Ganai</span> <br />
+              <span className="star fa fa-star checked"></span>
+              <span className="star fa fa-star checked"></span>
+              <span className="star fa fa-star checked"></span>
+              <span className="star fa fa-star checked"></span>
               <p className="homeCenterParagraph">
-                I am a full-stack web developer
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               </p>
             </div>
           </div>
