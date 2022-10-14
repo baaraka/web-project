@@ -35,7 +35,7 @@ export default function About() {
             Cleaning Company In Abuja. It is One Of Wholly Citizen Owned
             Commercial Cleaning Company In Nigeria.
           </p>
-          <button className="aboutBtn">Read More</button>
+          <button className="aboutBtn">READ MORE</button>
         </div>
       </div>
     </div>
