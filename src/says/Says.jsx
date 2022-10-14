@@ -11,20 +11,21 @@ export default function Says() {
           <div className="sayBox1">
             <div className="saysBoxImg">
               <img
-                src="https://t4.ftcdn.net/jpg/02/65/60/81/360_F_265608151_dW8v74JWjL0ch4iJ5l2oyPm4kv2WBrqe.jpg"
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-bearded-man-grey-background-over-studio-empty-space-middle-aged-posing-male-magazine-blog-youth-205328712.jpg"
                 alt=""
                 className="saysBoxItemImg"
               />
             </div>
             <div className="sayBoxItem1">
               <p className="saysParagraph1">
-                I am a full-stack web developer with strong knowledge of
-                MongoDB, node.js, Javascript and front end technologies such
-                react, jquery, Ejs and counting.Graduated University with degree
-                in science of information technology. Strong mathematics and
-                programming background.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                ipsa veritatis cupiditate libero, accusantium veniam ipsam
+                itaque at odio minus, optio ad omnis molestiae fugit beatae
+                error facilis tempora dolore. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Enim eaque temporibus accusamus
+                repellat magni tenetur nostrum tempore neque
               </p>
-              <span className="saysSpan">Barack Ganai</span>
+              <span className="saysSpan">Ik Nosa</span>
               <br />
               <span className="starL fa fa-star checked"></span>
               <span className="starL fa fa-star checked"></span>
@@ -35,20 +36,21 @@ export default function Says() {
           <div className="sayBox2">
             <div className="saysBoxImg">
               <img
-                src="https://t4.ftcdn.net/jpg/02/65/60/81/360_F_265608151_dW8v74JWjL0ch4iJ5l2oyPm4kv2WBrqe.jpg"
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-bearded-man-grey-background-over-studio-empty-space-middle-aged-posing-male-magazine-blog-youth-205328712.jpg"
                 alt=""
                 className="saysBoxItemImg"
               />
             </div>
             <div className="sayBoxItem2">
               <p className="saysParagraph2">
-                I am a full-stack web developer with strong knowledge of
-                MongoDB, node.js, Javascript and front end technologies such
-                react, jquery, Ejs and counting.Graduated University with degree
-                in science of information technology. Strong mathematics and
-                programming background.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                ipsa veritatis cupiditate libero, accusantium veniam ipsam
+                itaque at odio minus, optio ad omnis molestiae fugit beatae
+                error facilis tempora dolore. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Enim eaque temporibus accusamus
+                repellat magni tenetur nostrum tempore neque
               </p>
-              <span className="saysSpan">Barack Ganai</span>
+              <span className="saysSpan">Joy Nosa</span>
               <br />
               <span className="starL fa fa-star checked"></span>
               <span className="starL fa fa-star checked"></span>
@@ -59,20 +61,21 @@ export default function Says() {
           <div className="sayBox3">
             <div className="saysBoxImg">
               <img
-                src="https://t4.ftcdn.net/jpg/02/65/60/81/360_F_265608151_dW8v74JWjL0ch4iJ5l2oyPm4kv2WBrqe.jpg"
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-bearded-man-grey-background-over-studio-empty-space-middle-aged-posing-male-magazine-blog-youth-205328712.jpg"
                 alt=""
                 className="saysBoxItemImg"
               />
             </div>
             <div className="sayBoxItem3">
               <p className="saysParagraph3">
-                I am a full-stack web developer with strong knowledge of
-                MongoDB, node.js, Javascript and front end technologies such
-                react, jquery, Ejs and counting.Graduated University with degree
-                in science of information technology. Strong mathematics and
-                programming background.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                ipsa veritatis cupiditate libero, accusantium veniam ipsam
+                itaque at odio minus, optio ad omnis molestiae fugit beatae
+                error facilis tempora dolore. Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Enim eaque temporibus accusamus
+                repellat magni tenetur nostrum tempore neque
               </p>
-              <span className="saysSpan">Barack Ganai</span>
+              <span className="saysSpan">Sam Odion</span>
               <br />
               <span className="starL fa fa-star checked"></span>
               <span className="starL fa fa-star checked"></span>
