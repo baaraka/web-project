@@ -10,35 +10,30 @@ export default function Questions() {
         <div className="questionsList">
           <div className="questionsListItem1">
             <p className="questionParagraph">
-              I am a full-stack web developer with strong knowledge of MongoDB,
-              node.js, Javascript and front end technologies such react, jquery,
-              Ejs and counting.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+              dolor officia
             </p>
             <p className="questionsParagraphItem">
-              I am a full-stack web developer with strong knowledge of MongoDB,
-              node.js, Javascript and front end technologies such react, jquery,
-              Ejs and counting.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+              obcaecati voluptatibus optio in debitis vel aperiam minima
             </p>
           </div>
           <div className="questionsListItem2">
             <p className="questionsParagraph">
-              I am a full-stack web developer with strong knowledge of MongoDB,
-              node.js, Javascript and front end technologies such react, jquery,
-              Ejs and counting.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              ullam quod voluptatem
             </p>
           </div>
           <div className="questionsListItem3">
             <p className="questionsParagraph">
-              I am a full-stack web developer with strong knowledge of MongoDB,
-              node.js, Javascript and front end technologies such react, jquery,
-              Ejs and counting.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto eligendi, tempore
             </p>
           </div>
           <div className="questionsListItem4">
             <p className="questionsParagraph">
-              I am a full-stack web developer with strong knowledge of MongoDB,
-              node.js, Javascript and front end technologies such react, jquery,
-              Ejs and counting.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              obcaecati quis error sit maxime
             </p>
           </div>
         </div>
