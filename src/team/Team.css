@@ -14,23 +14,26 @@
   height: 200px;
   justify-content: center;
   align-items: center;
-  margin-left: 80px;
-  margin-top: 90px;
-  padding-top: 90px;
+  position: relative;
+  top: 170px;
+  left: 95px;
 }
-.heading {
+.headingTeam {
   font-size: 20px;
   font-family: montserrat serif;
   font-weight: 800;
   margin-left: 40px;
   padding-left: 30px;
+  padding-bottom: 10px;
   align-items: center;
   justify-content: center;
+  color: rgb(60, 52, 52);
 }
 .teamParagraph {
   font-family: montserrat serif;
   margin-left: 40px;
   padding-left: 30px;
+  line-height: 22px;
 }
 .teamImg {
   float: right;
