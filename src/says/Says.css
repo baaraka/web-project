@@ -118,3 +118,25 @@
   color: gold;
   padding: 2px;
 }
+.saysIconRight {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 1122px;
+  bottom: 380px;
+}
+.saysIconLeft {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 1090px;
+  bottom: 400px;
+}
+.saysIconRightItem {
+  font-size: 20px;
+  color: rgb(146, 137, 137);
+}
+.saysIconLeftItem {
+  font-size: 20px;
+  color: rgb(79, 68, 68);
+}
