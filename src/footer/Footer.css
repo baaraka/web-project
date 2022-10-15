@@ -80,6 +80,7 @@
 .footerEmail {
   color: rgb(121, 99, 43);
   padding-left: 8px;
+  line-height: 22px;
 }
 .footIcons {
   padding: 4px;
