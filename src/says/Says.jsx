@@ -84,6 +84,12 @@ export default function Says() {
             </div>
           </div>
         </div>
+        <div className="saysIconRight">
+          <i className="saysIconRightItem fa-solid fa-arrow-right"></i>
+        </div>
+        <div className="saysIconLeft">
+          <i class="saysIconLeftItem fa-solid fa-arrow-left"></i>
+        </div>
       </div>
     </div>
   );
