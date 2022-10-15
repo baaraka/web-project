@@ -35,43 +35,76 @@
 }
 .questionsParagraph {
   padding: 15px;
+  color: rgb(73, 64, 64);
 }
 .questionsParagraphItem {
   color: rgb(115, 115, 63);
   padding: 30px 15px 15px 15px;
 }
 .questionsListItem1 {
-  width: 90.5%;
+  width: 90%;
   height: 120px;
   margin-bottom: 10px;
-  margin-left: 14px;
+  margin-left: 22px;
   background-color: white;
   border-radius: 10px;
   border: 1px solid rgb(225, 222, 222);
 }
 .questionsListItem2 {
-  width: 90.5%;
+  width: 90%;
   height: 60px;
   margin-bottom: 10px;
-  margin-left: 14px;
+  margin-left: 22px;
   background-color: white;
   border-radius: 10px;
   border: 1px solid rgb(225, 222, 222);
 }
 .questionsListItem3 {
-  width: 90.5%;
+  width: 90%;
   height: 60px;
   margin-bottom: 10px;
-  margin-left: 14px;
+  margin-left: 22px;
   background-color: white;
   border-radius: 10px;
   border: 1px solid rgb(225, 222, 222);
 }
 .questionsListItem4 {
-  width: 90.5%;
+  width: 90%;
   height: 60px;
   background-color: white;
   border-radius: 10px;
-  margin-left: 14px;
+  margin-left: 22px;
   border: 1px solid rgb(225, 222, 222);
+}
+.iconQuestion1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 955px;
+  bottom: 15px;
+}
+.iconQuestion2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 955px;
+  bottom: 30px;
+}
+.iconQuestion3 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 955px;
+  bottom: 30px;
+}
+.iconQuestion4 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 955px;
+  bottom: 30px;
+}
+.upIcon {
+  font-size: 13px;
+  color: rgb(73, 64, 64);
 }
