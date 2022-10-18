@@ -28,7 +28,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="footerRight">
-              <h4 className="footerSpanRight">Contact</h4>
+              <p className="footerSpanRight">Contact</p>
               <i className="footIcons fa-solid fa-envelope"></i>
               <span className="footerEmail">contact@9barack.com</span>
               <br />
