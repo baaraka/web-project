@@ -1,29 +1,27 @@
 .about {
   width: 100%;
   height: 100%;
-  top: 0;
   position: relative;
   background-color: rgb(246, 243, 240);
 }
 .aboutUs {
   display: flex;
   width: 100%;
-  height: 30%;
+  height: 100%;
   padding-top: 50px;
   align-items: center;
   justify-content: center;
 }
 .aboutUsItemSm {
-  float: left;
-  width: 480px;
+  width: 50%;
   position: relative;
-  left: 39px;
+  padding-left: 153px;
+  /* left: 153px; */
 }
 .aboutUsItems {
-  float: right;
-  width: 45%;
+  width: 50%;
   position: relative;
-  right: 15px;
+  right: 50px;
 }
 .aboutUsItem {
   font-family: montserrat serif;
@@ -38,7 +36,8 @@
 }
 .aboutUsItemParagraph {
   font-family: montserrat, sans-serif;
-  line-height: 30px;
+  line-height: 25px;
+  width: 545px;
   margin-bottom: 15px;
   align-items: center;
   justify-content: center;
@@ -94,4 +93,51 @@ hr {
   color: rgb(112, 102, 75);
   background-color: rgb(239, 206, 121);
   border: 2px solid rgb(239, 206, 121);
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px) {
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutUsItemSm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutImgItem {
+    position: relative;
+    right: 90px;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    width: 90px;
+  }
+  .img2 {
+    width: 90px;
+  }
+  .img3 {
+    width: 90px;
+  }
+  .aboutUsItems {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .aboutUsItemParagraph {
+    width: 100%;
+    font-size: 15px;
+  }
+  .aboutUsItem {
+    position: relative;
+    bottom: 400px;
+    padding-top: 10px;
+  }
+  .aboutBtn {
+    font-size: 12px;
+  }
 }
