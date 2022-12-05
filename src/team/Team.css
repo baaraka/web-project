@@ -1,22 +1,23 @@
 .team {
-  top: 0;
   width: 100%;
-  height: 500px;
+  height: 100%;
   background-color: rgb(246, 243, 240);
 }
 .teamDiv {
   width: 100%;
-  height: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .teamHeading {
-  float: left;
   width: 600px;
   height: 200px;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 170px;
-  left: 95px;
+  top: 30px;
+  left: 10px;
 }
 .headingTeam {
   font-size: 20px;
@@ -36,7 +37,6 @@
   line-height: 22px;
 }
 .teamImg {
-  float: right;
   width: 40%;
   height: 450px;
   align-items: center;
@@ -46,6 +46,43 @@
   width: 350px;
   height: 350px;
   border-radius: 20px;
-  margin-left: 30px;
-  margin-top: 60px;
+  position: relative;
+  top: 30px;
+  left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .team {
+    max-width: 100%;
+    height: 100%;
+  }
+  .teamDiv {
+    max-width: 100%;
+    height: 100%;
+  }
+  .teamHeading {
+    max-width: 100%;
+    height: 100%;
+  }
+  .headingTeam {
+    max-width: 100%;
+    position: relative;
+    bottom: 170px;
+  }
+  .teamParagraph {
+    position: relative;
+    top: 90px;
+    width: 500px;
+    max-width: 100%;
+  }
+  .teamImg {
+    max-width: 100%;
+    position: relative;
+    right: 330px;
+    top: 5px;
+  }
+  .teamImgItem {
+    width: 250px;
+    height: 250px;
+  }
 }
