@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .serviceContainerHeading {
   width: 100%;
@@ -101,9 +102,13 @@
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) {
+  .services {
+    padding-bottom: 20px;
+  }
   .serviceContainers {
+    justify-content: flex-start;
     width: 100%;
-    padding: 20px;
+    padding-right: 20px;
   }
   .serviceContainerHeading {
     width: 100%;
@@ -127,7 +132,6 @@
     padding: 16px;
   }
   .serviceBtn {
-    position: relative;
-    right: 80px;
+    margin-right: 120px;
   }
 }
