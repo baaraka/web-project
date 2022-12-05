@@ -9,17 +9,19 @@ export default function Questions() {
         </div>
         <div className="questionsList">
           <div className="questionsListItem1">
-            <p className="questionParagraph">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-              dolor officia
-            </p>
+            <div className="questionL">
+              <p className="questionParagraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Possimus dolor officia
+              </p>
+              <p className="questionsParagraphItem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                obcaecati voluptatibus optio in debitis vel aperiam minima
+              </p>
+            </div>
             <div className="iconQuestion1">
               <i class="upIcon fa-solid fa-chevron-up"></i>
             </div>
-            <p className="questionsParagraphItem">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-              obcaecati voluptatibus optio in debitis vel aperiam minima
-            </p>
           </div>
           <div className="questionsListItem2">
             <p className="questionsParagraph">
