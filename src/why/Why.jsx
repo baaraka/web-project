@@ -35,14 +35,12 @@ export default function Why() {
           </div>
         </div>
         <div className="aboutUsWhyVideo">
-          <div className="aboutUsVideo">
-            <iframe
-              className="video"
-              width="450"
-              height="300"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"
-            ></iframe>
-          </div>
+          <iframe
+            className="video"
+            width="450"
+            height="300"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"
+          ></iframe>
         </div>
       </div>
     </div>
