@@ -2,21 +2,20 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home" id="Home">
       <div className="homeContainer">
         <div className="homeContainerTitle">
           <div className="homeContainerList">
-            <h1 className="homeTitle">
+            <h1 className="homeTitle1">
               <span className="SpanHomeTitle">Caregreek</span> We Are
             </h1>
-            <h1 className="homeTitle">A Certified Cleaning</h1>
-            <h1 className="homeTitle">Company</h1>
+            <h1 className="homeTitle2">A Certified Cleaning</h1>
+            <h1 className="homeTitle3">Company</h1>
           </div>
           <div className="homeParagraphItem">
             <p className="homeParagraph">SHEDULE SERVICES</p>
           </div>
         </div>
-
         <div className="homeContainerImgSection">
           <div className="circle"></div>
 
@@ -43,7 +42,7 @@ export default function Home() {
               />
             </div>
             <div className="homeContainerCenterParagraph">
-              <span className="centerParagraph">Barack Ganai</span> <br />
+              <span className="centerParagraph">Sam Odion</span> <br />
               <span className="star fa fa-star checked"></span>
               <span className="star fa fa-star checked"></span>
               <span className="star fa fa-star checked"></span>
@@ -55,9 +54,9 @@ export default function Home() {
           </div>
           <div className="homeContainerDash1">
             <ul className="homeDash1">
-              <li>.........</li>
-              <li>.........</li>
-              <li>.........</li>
+              <li className="list">.........</li>
+              <li className="list">.........</li>
+              <li className="list">.........</li>
             </ul>
           </div>
           <div className="homeContainerDash3">
@@ -65,6 +64,7 @@ export default function Home() {
               <li>...</li>
             </ul>
           </div>
+          <span className="starLarge fa fa-star checked"></span>
         </div>
       </div>
     </div>
