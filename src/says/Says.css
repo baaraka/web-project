@@ -140,3 +140,24 @@
   font-size: 20px;
   color: rgb(79, 68, 68);
 }
+
+@media screen and (max-width: 600px) {
+  .saysItem {
+    width: 100%;
+    height: 100%;
+  }
+  .saysHeading {
+    position: relative;
+    right: 130px;
+  }
+  .sayIcon {
+    position: relative;
+    right: 840px;
+    bottom: 40px;
+  }
+
+  .saysBox {
+    position: relative;
+    right: 120px;
+  }
+}
