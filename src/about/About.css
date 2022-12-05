@@ -16,7 +16,6 @@
   width: 50%;
   position: relative;
   padding-left: 153px;
-  /* left: 153px; */
 }
 .aboutUsItems {
   width: 50%;
@@ -103,16 +102,16 @@ hr {
     flex-direction: column;
   }
   .aboutUsItemSm {
-    width: 100%;
+    max-width: 100%;
+    height: 100%;
     position: relative;
     top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 160px;
   }
   .aboutImgItem {
-    position: relative;
-    right: 90px;
     align-items: center;
     justify-content: center;
   }
