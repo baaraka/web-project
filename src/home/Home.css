@@ -13,7 +13,8 @@
 }
 .homeContainerTitle {
   top: 60px;
-  width: 500px;
+  width: 510px;
+  height: 500px;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -25,14 +26,28 @@
   top: 25px;
   position: relative;
 }
-.homeTitle {
+.homeTitle1 {
   font-family: montserrat, serif;
   font-size: 60px;
   font-weight: 900;
-  line-height: 20px;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-right: 10px;
+}
+.homeTitle2 {
+  font-family: montserrat, serif;
+  font-size: 60px;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+.homeTitle3 {
+  font-family: montserrat, serif;
+  font-size: 60px;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
   padding-right: 10px;
 }
 .SpanHomeTitle {
@@ -192,4 +207,149 @@
   align-items: center;
   justify-content: center;
   padding-left: 7px;
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+  .homeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .homeContainerTitle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .homeTitle1 {
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .homeTitle2 {
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .homeTitle3 {
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 70px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .homeContainerList {
+    width: 100%;
+    height: 100%;
+  }
+
+  .homeContainerImgSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .homeContainerDash2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 300px;
+    margin-right: 500px;
+  }
+  .homeContainerImg {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-right: 410px;
+  }
+  .homeContainerCenter {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+  }
+  .homeContainerImgItem {
+    height: 100%;
+    width: 100%;
+  }
+  .homeContainerCenterParagraph {
+    height: 100%;
+    width: 100%;
+  }
+  .homeContainerDash1 {
+    height: 100%;
+    width: 100%;
+    top: -180px;
+    position: relative;
+    margin-right: 520px;
+  }
+
+  .homeContainerDash3 {
+    height: 100%;
+    width: 100%;
+    margin-right: 700px;
+    position: relative;
+    display: none;
+    background-color: blue;
+  }
+  .homeImg {
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  .homeParagraphItem {
+    max-width: 100%;
+    height: 100%;
+  }
+  .homeParagraph {
+    position: relative;
+    bottom: 40px;
+  }
+  .circle {
+    position: relative;
+    top: 150px;
+    margin-right: 450px;
+  }
+  .triangle {
+    top: 100px;
+    margin-right: 950px;
+  }
+  .homeDash1 {
+    font-size: 60px;
+  }
+  .list {
+    padding-top: 15px;
+  }
+  .starLarge {
+    color: gold;
+    position: relative;
+    bottom: 450px;
+    right: 100px;
+    font-size: 50px;
+  }
+  .homeDash2 {
+    display: none;
+  }
 }
