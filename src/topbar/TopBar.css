@@ -31,13 +31,14 @@
   cursor: pointer;
 }
 .topLeftImg {
+  position: relative;
+  left: 110px;
   padding-left: 50px;
 }
 .homeTopCenter {
-  flex: 6;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  width: 720px;
+  position: relative;
+  left: 350px;
 }
 .homeNavigationBar {
   display: flex;
@@ -47,6 +48,10 @@
   list-style: none;
 }
 .homeTopRight {
+  width: 600px;
+  position: relative;
+  left: 530px;
+
   padding-right: 60px;
   height: 50px;
 }
@@ -58,6 +63,7 @@
   cursor: pointer;
 }
 .navigationBar {
+  width: 250px;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -130,7 +136,8 @@
   .homeTopRight {
     display: none;
   }
-  .topLeftImg {
-    padding-left: 25px;
+  .homeLogoImg {
+    position: relative;
+    right: 135px;
   }
 }
