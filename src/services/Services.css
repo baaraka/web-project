@@ -101,7 +101,8 @@
   border: 2px solid rgb(239, 206, 121);
 }
 /* RESPONSIVE */
-@media only screen and (max-width: 600px) {
+/* small devices (smartphones) */
+@media only screen and (max-width: 767px) {
   .services {
     padding-bottom: 20px;
   }
