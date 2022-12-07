@@ -8,7 +8,7 @@ import Questions from "./questions/Questions";
 import Says from "./says/Says";
 import Services from "./services/Services";
 import Team from "./team/Team";
-import TopBar from "./TopBar/TopBar";
+import TopBar from "./topbar/Topbar";
 import Why from "./why/Why";
 
 function App() {
