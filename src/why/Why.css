@@ -52,8 +52,8 @@
 }
 
 /* RESPONSIVE */
-
-@media only screen and (max-width: 600px) {
+/* small devices (smartphones) */
+@media only screen and (max-width: 767px) {
   .aboutUsWhy {
     width: 100%;
     height: 100%;
